@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int somma = 0;
+    
+    float a = 100;
+  
+    float somma = a / 2 * (a / 2 + 1);
 
-    for(int i = 2; i <= 100; i += 2)
-    {
-        somma += i;
-    }
-
-    printf("%d\n\33[34m", somma);
+    printf("%f\n\33[34m", somma);
+  
 }
