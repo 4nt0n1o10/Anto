@@ -6,15 +6,18 @@ int main(){
     int Tu;
 
     printf("quanto salti lontano?\n\33[34m");
-    scanf(" %d", &Io);
-    scanf(" %d", &Tu);
-    if (Tu == 120) {
+     scanf(" %d", &Tu);
+    
+    if (Tu == 120) 
+    {
         printf("saltiamo alla stessa distanza\n");
     }
-    else if (Tu <= 119) {
+    else if (Tu <= 119) 
+    {
         printf("salto più lontano Io\n");
     }
-    else{
+    else
+    {
         printf("salti più lontano Tu\n");
     }
 
