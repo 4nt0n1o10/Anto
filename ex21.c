@@ -8,7 +8,7 @@ int main(){
     int a;
     a = 20;
     ciao(&a);
-    printf("a = %d\n", a);
+    printf("\33[34ma = %d\n", a);
 
     return 0;
 }    

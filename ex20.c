@@ -4,7 +4,7 @@ int main(){
     int i;
     char stringa[100];
 
-    printf("inserisci un testo: ");
+    printf("\33[34minserisci un testo: ");
     printf("%s \n", stringa);
     scanf("%[^\t\n]s", stringa);
     i = 0;
