@@ -6,12 +6,26 @@ int inverti()
     int y;
     int i = 0;
 
-    printf("\33[34massegnare due valori alle variabili x e y\n");
+    printf("\33[34mAssegnare due valori alle variabili x e y\n");
     scanf("%d\n%d", &x, &y);
-    printf("\33[33minvertiamo il primo valore con il secondo\n");
-    printf("%d\n\33[34", y);
-    printf("\33[32med ora il secondo con il primo\n");
-    printf("%d\n\33[34", x);
+    
+    if (x >= 0 &&  x <= 254)
+    {
+        printf("\33[31mInserisci due numeri per favore (mi sembrava scontato...)\n");
+    }
+
+    else if (y >= 0 &&  y <= 254)
+    {
+        printf("\33[31mInserisci due numeri per favore (mi sembrava scontato...)\n");
+    }
+
+    else 
+    {
+        printf("\33[33minvertiamo il primo valore con il secondo\n");
+        printf("%d\n\33[34", y);
+        printf("\33[32med ora il secondo con il primo\n");
+        printf("%d\n\33[34", x);
+    }
 }
 
 int main()
