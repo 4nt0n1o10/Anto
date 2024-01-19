@@ -80,7 +80,7 @@ int main(){
         }        
     }
     printf("Ah, io bloccherei anche qualche numero ''proibito'', così per sicurezza:\n");
-    while 
+    while (1)
     {
         printf("Ex fidanzata\n");
         scanf(" %s", f); 
@@ -101,6 +101,7 @@ int main(){
         else 
         {
             printf("Persona verso cui provi rancore %s\n", g);
+            break;
         }
     }
     
