@@ -90,7 +90,7 @@ int main()
             }
         }
     }
-    printf("\033[33mSe pensi di fare serata, digita 3, se invece pensi di riuscire a controllarti premi un altro tasto\n");
+    printf("\033[33mSe pensi di fare serata, digita 3, se invece pensi di riuscire a controllarti premi un altro tasto\033[0m\n");
     scanf("%d", &j);
     if (j==3)
     {
