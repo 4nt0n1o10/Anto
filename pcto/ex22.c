@@ -9,12 +9,12 @@ int inverti()
     printf("\33[34mAssegnare due valori alle variabili x e y\n");
     scanf("%d\n%d", &x, &y);
     
-    if (x <= 48 && x >= 57)
+    if (x <= 48 || x >= 57)
     {
         printf("\33[31mInserisci due numeri per favore (mi sembrava scontato...)\n");
     }
 
-    else if (y <= 48 && y >= 57)
+    else if (y <= 48 || y >= 57)
     {
         printf("\33[31mInserisci due numeri per favore (mi sembrava scontato...)\n");
     }
